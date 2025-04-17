@@ -16,6 +16,7 @@ with open("models/tokenizer.pkl", "rb") as f:
 max_length = 34
 img_size = 224
 
+
 def generate_caption(image):
     # Save image temporarily
     temp = tempfile.NamedTemporaryFile(suffix=".jpg", delete=False)
@@ -40,6 +41,7 @@ def generate_caption(image):
 
     caption = in_text.replace("startseq", "").strip()
     return image, caption
+
 
 # Gradio UI
 with gr.Blocks(css="""
