@@ -3,3 +3,5 @@ numpy
 streamlit
 pillow
 gradio
+matplotlib
+pickle
