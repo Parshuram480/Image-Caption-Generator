@@ -4,4 +4,3 @@ streamlit
 pillow
 gradio
 matplotlib
-pickle
